@@ -11,7 +11,7 @@ public class AppConfig {
     }
 
     @Bean
-    @Scope("prototype")  // каждый раз новый объект
+    @Scope("prototype")
     public Cat cat() {
         return new Cat();
     }

@@ -11,7 +11,7 @@ public class App {
         Cat cat1 = (Cat) context.getBean("cat");
         Cat cat2 = (Cat) context.getBean("cat");
 
-        System.out.println("HelloWorld beans equal: " + (bean1 == bean2)); // true
-        System.out.println("Cat beans equal: " + (cat1 == cat2));           // false
+        System.out.println("HelloWorld beans equal: " + (bean1 == bean2));
+        System.out.println("Cat beans equal: " + (cat1 == cat2));
     }
 }
